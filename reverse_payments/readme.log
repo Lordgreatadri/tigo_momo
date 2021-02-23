@@ -1,0 +1,80 @@
+
+$_POST['requestTransactionId']     = 'H4YhZ9v16134717794d5e9475ef11e1583dd79c914d2e24c3';//previous transaction ID in purchase/payment request you initiated
+$_POST['requestCorrelatorId']      = "23324860299815202102161036192431294";//previous correlator ID in purchase/payment request you initiated
+$_POST['UtibaTransactionId']       = 'MM210216.1045.D02408'; //unique mfs id received in the purchase/payment callback
+$_POST['paymentReference']         = "123408989877855652413456"; //paymentReference for the previous transaction to be reversed
+$_POST['apiType']                  = "purchase"; //this should be the payment type to be reversed {purchase/payment}
+$_POST['AuthorizationCode'] = "MskwHaW9(2021028Mcc)";
+
+
+{
+	"Success":"Failed",
+	"Data":
+		{
+			"ResponseCode":"2001",
+			"Description":"Non authorized request"
+		}
+}
+
+
+{
+	"Success":true,
+	"ResponseCode":"reversetransaction-3020-4507-V",
+	"Data":
+		{
+			"TransactionId":"iBVqPkE1613462351ad8a4273fa61090a2dd3cf6c9b2ccf54",
+			"RequestCorrelationId":"20210210112947",
+			"RequestTransactionId":"20210210112947",
+			"ExternalTransactionId":"4ae0369c-ebba-4b9e-ae57-3b8fc7659abd",
+			"TransactionType":"CANCEL TRANSACTION",
+			"Status":"ERROR",
+			"Description":"Invalid PaymentReferenceID\/AuthorizationCode passed in the request.",
+			"apiType":"purchase",
+			"PaymentReference":"20210210112947"
+		}
+}
+
+
+
+{
+	"Success":true,
+	"ResponseCode":"reversetransaction-3020-3001-E",
+	"Data":
+		{
+			"TransactionId":"ewLDofR16134631733b53f23af82875aec08322ec9424fab3",
+			"RequestCorrelationId":"20210210112947",
+			"RequestTransactionId":"20210210112947",
+			"ExternalTransactionId":"0d3c5a2f-7599-40de-8acb-485376b47160",
+			"TransactionType":"CANCEL TRANSACTION",
+			"Status":"ERROR",
+			"Description":"STATUS or MSISDN is not matching with DB",
+			"apiType":"payment",
+			"PaymentReference":"20210210112947"
+		}
+}
+
+
+
+
+{
+	"Success":true,
+	"ResponseCode":"reversetransaction-3020-0000-S",
+	"Data":
+		{
+			"TransactionId":"pEOAib91613475191e1d45b4539e106a73bc7f6071770b898",
+			"RequestCorrelationId":"23324860299815202102161036192431294",
+			"RequestTransactionId":"H4YhZ9v16134717794d5e9475ef11e1583dd79c914d2e24c3",
+			"ExternalTransactionId":"c2cbc1d3-a79d-45e9-a6c6-342143b957f1",
+			"TransactionType":"CANCEL TRANSACTION",
+			"ReversedTransactionId":"XX210216.1132.D01930",
+			"Status":"OK",
+			"Description":"The request has been processed successfully.",
+			"apiType":"purchase",
+			"PaymentReference":"123408989877855652413456"
+		}
+}
+
+
+
+
+{"Success":true,"ResponseCode":"reversetransaction-3020-0000-S","Data":{"TransactionId":"pEOAib91613475191e1d45b4539e106a73bc7f6071770b898","RequestCorrelationId":"23324860299815202102161036192431294","RequestTransactionId":"H4YhZ9v16134717794d5e9475ef11e1583dd79c914d2e24c3","ExternalTransactionId":"c2cbc1d3-a79d-45e9-a6c6-342143b957f1","TransactionType":"CANCEL TRANSACTION","Status":"OK","Description":"The request has been processed successfully.","apiType":"purchase","PaymentReference":"123408989877855652413456"}}

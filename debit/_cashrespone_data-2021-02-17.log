@@ -1,0 +1,2 @@
+transaction_id :=> MM210217.1310.D04340, correlationID:=> 23324226528815202102171310218978552 , status:=> 'OK', description:=> 'The request has been processed successfully', initiate_date:=> '2021-02-17' 
+transaction_id :=> MM210217.1356.D04781, correlationID:=> 23324208684070202102171356185579680 , status:=> 'OK', description:=> 'The request has been processed successfully', initiate_date:=> '2021-02-17' 

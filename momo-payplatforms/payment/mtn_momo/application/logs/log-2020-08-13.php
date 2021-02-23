@@ -1,0 +1,32 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2020-08-13 11:30:04 --> Severity: Notice --> Trying to get property of non-object /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-08-13 11:30:04 --> Severity: Notice --> Trying to get property of non-object /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-08-13 11:30:04 --> Severity: Notice --> Trying to get property of non-object /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-08-13 11:30:04 --> Severity: Notice --> Trying to get property of non-object /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-08-13 11:30:04 --> Severity: Notice --> Trying to get property of non-object /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-08-13 11:30:04 --> Severity: Notice --> Trying to get property of non-object /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-08-13 11:30:04 --> Severity: Notice --> Trying to get property of non-object /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-08-13 11:30:04 --> Severity: Notice --> Trying to get property of non-object /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-08-13 11:30:04 --> Severity: Notice --> Trying to get property of non-object /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-08-13 11:30:04 --> Severity: Notice --> Trying to get property of non-object /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-08-13 13:15:45 --> Severity: Notice --> Trying to get property of non-object /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-08-13 13:15:45 --> Severity: Notice --> Trying to get property of non-object /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-08-13 13:15:45 --> Severity: Notice --> Trying to get property of non-object /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-08-13 13:15:45 --> Severity: Notice --> Trying to get property of non-object /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-08-13 13:15:45 --> Severity: Notice --> Trying to get property of non-object /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-08-13 13:15:45 --> Severity: Notice --> Trying to get property of non-object /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-08-13 13:15:45 --> Severity: Notice --> Trying to get property of non-object /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-08-13 13:15:45 --> Severity: Notice --> Trying to get property of non-object /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-08-13 13:15:45 --> Severity: Notice --> Trying to get property of non-object /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-08-13 13:15:45 --> Severity: Notice --> Trying to get property of non-object /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-08-13 13:18:27 --> Severity: Notice --> Trying to get property of non-object /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-08-13 13:18:27 --> Severity: Notice --> Trying to get property of non-object /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-08-13 13:18:27 --> Severity: Notice --> Trying to get property of non-object /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-08-13 13:18:27 --> Severity: Notice --> Trying to get property of non-object /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-08-13 13:18:27 --> Severity: Notice --> Trying to get property of non-object /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-08-13 13:18:27 --> Severity: Notice --> Trying to get property of non-object /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-08-13 13:18:27 --> Severity: Notice --> Trying to get property of non-object /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-08-13 13:18:27 --> Severity: Notice --> Trying to get property of non-object /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-08-13 13:18:27 --> Severity: Notice --> Trying to get property of non-object /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-08-13 13:18:27 --> Severity: Notice --> Trying to get property of non-object /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77

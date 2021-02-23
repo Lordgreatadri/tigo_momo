@@ -1,0 +1,72 @@
+[ <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://xmlns.tigo.com/MFS/PaymentsRequest/V1" xmlns:v3="http://xmlns.tigo.com/RequestHeader/V3" xmlns:v2="http://xmlns.tigo.com/ParameterType/V2" xmlns:cor1="http://soa.mic.co.af/coredata_1">
+				   <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+				      <cor1:debugFlag>true</cor1:debugFlag>
+				      <wsse:Security>
+				         <wsse:UsernameToken>
+				            <wsse:Username>live_mw_mcontent</wsse:Username>
+				            <wsse:Password>P@ssw0rd@12345</wsse:Password>
+				         </wsse:UsernameToken>
+				      </wsse:Security>
+				   </soapenv:Header>
+				   <soapenv:Body>
+				      <v1:payBillRequest xmlns:v1="http://xmlns.tigo.com/MFS/PaymentsRequest/V1">
+				         <v3:RequestHeader>
+				            <v3:GeneralConsumerInformation>
+				               <v3:consumerID>MContent</v3:consumerID>				                
+				               <v3:transactionID>Eg2xfYd1613418864335e3b305d4481618df5d9cca0a5d5cf</v3:transactionID>
+				               <v3:country>GHA</v3:country>
+				               <v3:correlationID>233497701859202102151954247218749</v3:correlationID>
+				            </v3:GeneralConsumerInformation>
+				         </v3:RequestHeader>
+				         <v1:requestBody>
+				            <v1:paymentreference>818664819</v1:paymentreference>
+				            <v1:sourceWallet>				               
+				               <v1:msisdn>233277231999</v1:msisdn>
+				            </v1:sourceWallet>
+				            <v1:targetWallet>				               
+				               <v1:msisdn>233273593525</v1:msisdn>
+				            </v1:targetWallet>				             
+				            <v1:pin>0852</v1:pin>				             
+				            <v1:companyId></v1:companyId>
+				            <v1:authorizationcode>bGl2ZV9td19tY29udGVudFBAc3N3MHJkQDEyMzQ1</v1:authorizationcode>
+				            <v1:amount>0.5</v1:amount>
+				         </v1:requestBody>
+				      </v1:payBillRequest>
+				   </soapenv:Body>
+				</soapenv:Envelope> ], 
+[ <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://xmlns.tigo.com/MFS/PaymentsRequest/V1" xmlns:v3="http://xmlns.tigo.com/RequestHeader/V3" xmlns:v2="http://xmlns.tigo.com/ParameterType/V2" xmlns:cor1="http://soa.mic.co.af/coredata_1">
+				   <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+				      <cor1:debugFlag>true</cor1:debugFlag>
+				      <wsse:Security>
+				         <wsse:UsernameToken>
+				            <wsse:Username>live_mw_mcontent</wsse:Username>
+				            <wsse:Password>P@ssw0rd@12345</wsse:Password>
+				         </wsse:UsernameToken>
+				      </wsse:Security>
+				   </soapenv:Header>
+				   <soapenv:Body>
+				      <v1:payBillRequest xmlns:v1="http://xmlns.tigo.com/MFS/PaymentsRequest/V1">
+				         <v3:RequestHeader>
+				            <v3:GeneralConsumerInformation>
+				               <v3:consumerID>MContent</v3:consumerID>				                
+				               <v3:transactionID>FtNQH5c1613418962344e40ece75c00531562ab3f4a6e97af</v3:transactionID>
+				               <v3:country>GHA</v3:country>
+				               <v3:correlationID>2334237965687202102151956024251734</v3:correlationID>
+				            </v3:GeneralConsumerInformation>
+				         </v3:RequestHeader>
+				         <v1:requestBody>
+				            <v1:paymentreference>350235001</v1:paymentreference>
+				            <v1:sourceWallet>				               
+				               <v1:msisdn>233277231999</v1:msisdn>
+				            </v1:sourceWallet>
+				            <v1:targetWallet>				               
+				               <v1:msisdn>233273593525</v1:msisdn>
+				            </v1:targetWallet>				             
+				            <v1:pin>0852</v1:pin>				             
+				            <v1:companyId></v1:companyId>
+				            <v1:authorizationcode>bGl2ZV9td19tY29udGVudFBAc3N3MHJkQDEyMzQ1</v1:authorizationcode>
+				            <v1:amount>0.5</v1:amount>
+				         </v1:requestBody>
+				      </v1:payBillRequest>
+				   </soapenv:Body>
+				</soapenv:Envelope> ], 

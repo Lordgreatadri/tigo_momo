@@ -1,0 +1,107 @@
+$_POST['apiType']   = 'payment'; // the type of transaction being required for {purchase/payment} only...
+$_POST['paymentReference']   = '818664819';
+$_POST['AuthorizationCode'] = "MskwHaW9(2021028Mcc)";
+
+
+
+{
+    "Success": true,
+    "ResponseCode": "getpurchasetransdetails-1162-0000-S",
+    "Data": {
+        "Network": "AIRTEL-TIGO-GH",
+        "CorrelationId": "233244550045750202102221239448110575",
+        "TransactionId": "TlDRqs416139975848231cd794d8999ccbe6f0b91e6d4d897",
+        "ExternalTransactionId": "50a914fb-500c-44e6-88a3-6697fe0e7b02",
+        "Amount": "0.20",
+        "ItemName": null,
+        "Status": "OK",
+        "PayerWallet": "233277231999",
+        "PayeeWallet": "233273593525",
+        "Description": "The request has been processed successfully.",
+        "UtibaTransactionId": "BM210222.1151.C01062",
+        "SoaTransactionId": "c24df2e5-461d-4fdf-a3db-22f319243f31",
+        "PaymentReference": "29899887760987645",
+        "PurchaseStatus": "Completed",
+        "MwCode": "payments-2005-0000-S",
+        "MwDescription": "The Payment Is Done successfully",
+        "AdditionalInfo": null,
+        "TransactionDate": "2021-02-22T11:53:01"
+    }
+}
+
+
+
+
+{
+	"Success":true,
+	"ResponseCode":"getpurchasetransdetails-1162-0000-S",
+		"Data":
+		{	
+			"CorrelationId":"233244262394881202102152230228548107",
+			"TransactionId":"RhQ4GCs1613428222d181324d034c3b457d77c9b7cb82146d",
+			"ExternalTransactionId":"a3cc1d5c-fb7d-4657-8b7e-694d569c22fc",
+			"Amount":"0.50",
+			"ItemName":'payment',
+			"Status":"OK",
+			"PayerWallet":"233277231999",
+			"PayeeWallet":"233273593525",
+			"Description":"The request has been processed successfully.",
+			"UtibaTransactionId":"BM210215.1953.C00818",
+			"SoaTransactionId":"a74d3a42-2cb1-43b0-a135-807bcc52412e",
+			"PaymentReference":"818664819",
+			"PurchaseStatus":"Completed",
+			"AdditionalInfo":null,
+			"TransactionDate":"2021-02-15T19:54:24"
+		}
+}
+
+
+
+
+{
+    "Success": true,
+    "ResponseCode": "getpurchasetransdetails-1162-0000-S",
+    "Data": {
+        "CorrelationId": "233244749322416202102182128283904469",
+        "TransactionId": "iUFpCMj1613683708ab4de5f72f1a5489dfd446b5ec1e2af1",
+        "ExternalTransactionId": "3a60e830-8845-4ec3-ac2f-a28bd17e80ae",
+        "Amount": "0.30",
+        "ItemName": "Book",
+        "Status": "OK",
+        "PayerWallet": "233273593525",
+        "PayeeWallet": "233277231999",
+        "Description": "The request has been processed successfully.",
+        "UtibaTransactionId": "MM210217.1356.D04781",
+        "SoaTransactionId": "5434cf4f-b4dc-47e8-8a3d-b4b5cc11ce83",
+        "PaymentReference": "23324208684070202102171356185579680",
+        "PurchaseStatus": "Completed",
+        "AdditionalInfo": null,
+        "TransactionDate": "2021-02-17T13:56:20.65"
+    }
+}
+
+
+{
+    "Success": true,
+    "ResponseCode": "getpurchasetransdetails-1162-4110-V",
+    "Data": {
+        "CorrelationId": "233244384613600202102182147162376052",
+        "TransactionId": "WHxrFTq16136848367b5af0b0a07642092b81c2362e52b818",
+        "ExternalTransactionId": "8dc1a7de-e2a6-4777-be19-2df2ba4abfc0",
+        "Amount": null,
+        "ItemName": null,
+        "Status": "ERROR",
+        "PayerWallet": null,
+        "PayeeWallet": null,
+        "Description": "Invalid paymentreference/authorizationcode passed in the request.",
+        "UtibaTransactionId": null,
+        "SoaTransactionId": null,
+        "PaymentReference": null,
+        "PurchaseStatus": null,
+        "AdditionalInfo": null,
+        "TransactionDate": null
+    }
+}
+
+
+

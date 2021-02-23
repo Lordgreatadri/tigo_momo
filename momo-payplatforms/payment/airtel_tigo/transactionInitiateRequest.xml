@@ -1,0 +1,41 @@
+curl -vvv -k -H "Content-Type: text/xml" -X POST -d '<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://xmlns.tigo.com/MFS/PurchaseInitiateRequest/V1" xmlns:v2="http://xmlns.tigo.com/ParameterType/V2" xmlns:v3="http://xmlns.tigo.com/RequestHeader/V3" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+  <s:Header xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <Action s:mustUnderstand="1" xmlns="http://schemas.microsoft.com/ws/2005/05/addressing/none" />
+    <wsse:Security xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+      <wsse:UsernameToken>
+        <wsse:Password>THYyT783!#Mcon</wsse:Password>
+        <wsse:Username>live_mw_mcontent</wsse:Username>
+      </wsse:UsernameToken>
+    </wsse:Security>
+  </s:Header>
+  <SOAP-ENV:Body>
+    <v1:PurchaseInitiateRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <v3:RequestHeader>
+        <v3:GeneralConsumerInformation>
+          <v3:consumerID>mcontent</v3:consumerID>
+          <v3:transactionID>TEST207</v3:transactionID>
+          <v3:country>GHA</v3:country>
+          <v3:correlationID>TEST207</v3:correlationID>
+        </v3:GeneralConsumerInformation>
+      </v3:RequestHeader>
+      <v1:requestBody>
+        <v1:customerAccount>
+          <v1:msisdn>233577850744</v1:msisdn>
+        </v1:customerAccount>
+        <v1:initiatorAccount>
+          <v1:msisdn>233277231999</v1:msisdn>
+        </v1:initiatorAccount>
+        <v1:paymentReference>TEST207</v1:paymentReference>
+        <v1:externalCategory>default</v1:externalCategory>
+        <v1:externalChannel>default</v1:externalChannel>
+        <v1:webUser>MOBILE_CONTENT</v1:webUser>
+        <v1:webPassword>Dealer@1357</v1:webPassword>
+        <v1:merchantName>Mobile Content</v1:merchantName>
+        <v1:itemName>Testing</v1:itemName>
+        <v1:amount>1</v1:amount>
+        <v1:minutesToExpire>10</v1:minutesToExpire>
+        <v1:notificationChannel>1</v1:notificationChannel>
+      </v1:requestBody>
+    </v1:PurchaseInitiateRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>' "https://accessgw.tigo.com.gh:8443/live/PurchaseInitiate"

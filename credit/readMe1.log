@@ -1,0 +1,40 @@
+{"Success":"Failed","Data":{"ResponseCode":"2001","Description":"Non authorize request"}}
+
+{
+		"Success":true,
+		"ResponseCode":"payments-2005-0000-S",
+		"Data":
+		{
+			"CorrelationId":"2334237965687202102151956024251734",
+			"TransactionId":"FtNQH5c1613418962344e40ece75c00531562ab3f4a6e97af",
+			"ExternalTransactionId":"f6dbafef-befd-407a-b900-31c45a87c3c2",
+			"Amount":"0.5",
+			"Status":"OK",
+			"Description":"The Payment Is Done successfully.",
+			"UtibaTransactionId":"BM210215.1954.C00819",
+			"PaymentReference":"350235001"
+		}
+	}
+
+
+{
+    "Success": true,
+    "ResponseCode": "payments-2005-0000-S",
+    "Data": {
+        "Network": "AIRTEL-TIGO-GH",
+        "CorrelationId": "2334439572413202102221153005860454",
+        "TransactionId": "gqJ0WGh1613994780382644120a0bcb0d019097ba56ef6aef",
+        "ExternalTransactionId": "c24df2e5-461d-4fdf-a3db-22f319243f31",
+        "Amount": "0.2",
+        "Status": "OK",
+        "Description": "The Payment Is Done successfully.",
+        "UtibaTransactionId": "BM210222.1151.C01062",
+        "PaymentReference": "29899887760987645",
+        "TransactionDate": "2021-02-22 11:53:01"
+    }
+}
+
+
+
+
+{"Success":true,"ResponseCode":"payments-2005-0000-S","Data":{"CorrelationId":"2334237965687202102151956024251734","TransactionId":"FtNQH5c1613418962344e40ece75c00531562ab3f4a6e97af","ExternalTransactionId":"f6dbafef-befd-407a-b900-31c45a87c3c2","Amount":"0.5","Status":"OK","Description":"The Payment Is Done successfully.","UtibaTransactionId":"BM210215.1954.C00819","PaymentReference":"350235001"}}

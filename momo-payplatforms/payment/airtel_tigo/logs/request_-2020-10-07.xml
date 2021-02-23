@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+						<soapenv:Envelope
+						    xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+						    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+						    <soapenv:Header>
+						        <wsse:Security
+						            soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next"
+						            soapenv:mustUnderstand="0" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+						            <wsse:UsernameToken>
+						                <wsse:Username>live_mw_mcontent</wsse:Username>
+						                <wsse:Password>THYyT783!#Mcon</wsse:Password>
+						            </wsse:UsernameToken>
+						        </wsse:Security>
+						    </soapenv:Header>
+						    <soapenv:Body>
+						        <PurchaseInitiateRequest xmlns="http://xmlns.tigo.com/MFS/PurchaseInitiateRequest/V1">
+						            <ns1:RequestHeader xmlns:ns1="http://xmlns.tigo.com/RequestHeader/V3">
+						                <ns1:GeneralConsumerInformation>
+						                    <ns1:consumerID>mcontent</ns1:consumerID>
+						                    <ns1:transactionID>8a6e6278cef815373c08426b1c71aa04</ns1:transactionID>
+						                    <ns1:country>GHA</ns1:country>
+						                    <ns1:correlationID>233416020677756454352</ns1:correlationID>
+						                </ns1:GeneralConsumerInformation>
+						            </ns1:RequestHeader>
+						            <requestBody>
+						                <customerAccount>
+						                    <msisdn>233273593525</msisdn>
+						                </customerAccount>
+						                <initiatorAccount>
+						                    <msisdn>233277231999</msisdn>
+						                </initiatorAccount>
+						                <password>2018</password>
+						                <paymentReference>MCC-TIGO-246604788</paymentReference>
+						                <externalCategory>default</externalCategory>
+						                <externalChannel>airtel-tigo-gh</externalChannel>
+						                <webUser>MOBILE_CONTENT</webUser>
+						                <webPassword>Dealer@1357</webPassword>
+						                <merchantName>Mobile Content</merchantName>
+						                <itemName>book</itemName>
+						                <amount>0.5</amount>
+						                <minutesToExpire>10</minutesToExpire>
+						                <notificationChannel>2</notificationChannel>
+						            </requestBody>
+						        </PurchaseInitiateRequest>
+						    </soapenv:Body>
+						</soapenv:Envelope>

@@ -1,0 +1,163 @@
+[ <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://xmlns.tigo.com/GetPurchaseTransDetailsRequest/V1" xmlns:v3="http://xmlns.tigo.com/RequestHeader/V3" xmlns:v2="http://xmlns.tigo.com/ParameterType/V2" xmlns:cor="http://soa.mic.co.af/coredata_1">
+				   <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+				      <cor:debugFlag>true</cor:debugFlag>
+				      <wsse:Security>
+				         <wsse:UsernameToken>
+				            <wsse:Username>live_mw_mcontent</wsse:Username>
+				            <wsse:Password>P@ssw0rd@12345</wsse:Password>
+				         </wsse:UsernameToken>
+				      </wsse:Security>
+				   </soapenv:Header>
+				   <soapenv:Body>
+				      <v1:GetPurchaseTransDetailsRequest>
+				         <v3:RequestHeader>
+				            <v3:GeneralConsumerInformation>
+				               <v3:consumerID>MContent</v3:consumerID>
+ 
+				               <v3:transactionID>IixBWQg1613995455453e66a10c50114a23456a15285da68b</v3:transactionID>
+				               <v3:country>GHA</v3:country>
+				               <v3:correlationID>233244162643810202102221204158460346</v3:correlationID>
+				            </v3:GeneralConsumerInformation>
+				         </v3:RequestHeader>
+				         <v1:requestBody>
+				            <v1:customerAccount>
+				                
+				               <v1:msisdn>233277231999</v1:msisdn>
+				            </v1:customerAccount>
+				            <v1:paymentReference>29899887760987645</v1:paymentReference>
+				            <v1:apiType>payment</v1:apiType>
+				            <v1:AuthorizationCode>bGl2ZV9td19tY29udGVudFBAc3N3MHJkQDEyMzQ1</v1:AuthorizationCode>
+				         </v1:requestBody>
+				      </v1:GetPurchaseTransDetailsRequest>
+				   </soapenv:Body>
+				</soapenv:Envelope> ], 
+[ <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://xmlns.tigo.com/GetPurchaseTransDetailsRequest/V1" xmlns:v3="http://xmlns.tigo.com/RequestHeader/V3" xmlns:v2="http://xmlns.tigo.com/ParameterType/V2" xmlns:cor="http://soa.mic.co.af/coredata_1">
+				   <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+				      <cor:debugFlag>true</cor:debugFlag>
+				      <wsse:Security>
+				         <wsse:UsernameToken>
+				            <wsse:Username>live_mw_mcontent</wsse:Username>
+				            <wsse:Password>P@ssw0rd@12345</wsse:Password>
+				         </wsse:UsernameToken>
+				      </wsse:Security>
+				   </soapenv:Header>
+				   <soapenv:Body>
+				      <v1:GetPurchaseTransDetailsRequest>
+				         <v3:RequestHeader>
+				            <v3:GeneralConsumerInformation>
+				               <v3:consumerID>MContent</v3:consumerID>
+ 
+				               <v3:transactionID>ZNPxzWK16139966385b265e342763ec031eb94ff376d68e1f</v3:transactionID>
+				               <v3:country>GHA</v3:country>
+				               <v3:correlationID>233244158429854202102221223585374321</v3:correlationID>
+				            </v3:GeneralConsumerInformation>
+				         </v3:RequestHeader>
+				         <v1:requestBody>
+				            <v1:customerAccount>
+				                
+				               <v1:msisdn>233277231999</v1:msisdn>
+				            </v1:customerAccount>
+				            <v1:paymentReference>29899887760987645</v1:paymentReference>
+				            <v1:apiType>payment</v1:apiType>
+				            <v1:AuthorizationCode>bGl2ZV9td19tY29udGVudFBAc3N3MHJkQDEyMzQ1</v1:AuthorizationCode>
+				         </v1:requestBody>
+				      </v1:GetPurchaseTransDetailsRequest>
+				   </soapenv:Body>
+				</soapenv:Envelope> ], 
+[ <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://xmlns.tigo.com/GetPurchaseTransDetailsRequest/V1" xmlns:v3="http://xmlns.tigo.com/RequestHeader/V3" xmlns:v2="http://xmlns.tigo.com/ParameterType/V2" xmlns:cor="http://soa.mic.co.af/coredata_1">
+				   <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+				      <cor:debugFlag>true</cor:debugFlag>
+				      <wsse:Security>
+				         <wsse:UsernameToken>
+				            <wsse:Username>live_mw_mcontent</wsse:Username>
+				            <wsse:Password>P@ssw0rd@12345</wsse:Password>
+				         </wsse:UsernameToken>
+				      </wsse:Security>
+				   </soapenv:Header>
+				   <soapenv:Body>
+				      <v1:GetPurchaseTransDetailsRequest>
+				         <v3:RequestHeader>
+				            <v3:GeneralConsumerInformation>
+				               <v3:consumerID>MContent</v3:consumerID>
+ 
+				               <v3:transactionID>62tUWg716139967151594da0457fe67a4cb14e3864cc0b9a1</v3:transactionID>
+				               <v3:country>GHA</v3:country>
+				               <v3:correlationID>233244461491742202102221225155704835</v3:correlationID>
+				            </v3:GeneralConsumerInformation>
+				         </v3:RequestHeader>
+				         <v1:requestBody>
+				            <v1:customerAccount>
+				                
+				               <v1:msisdn>233277231999</v1:msisdn>
+				            </v1:customerAccount>
+				            <v1:paymentReference>29899887760987645</v1:paymentReference>
+				            <v1:apiType>payment</v1:apiType>
+				            <v1:AuthorizationCode>bGl2ZV9td19tY29udGVudFBAc3N3MHJkQDEyMzQ1</v1:AuthorizationCode>
+				         </v1:requestBody>
+				      </v1:GetPurchaseTransDetailsRequest>
+				   </soapenv:Body>
+				</soapenv:Envelope> ], 
+[ <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://xmlns.tigo.com/GetPurchaseTransDetailsRequest/V1" xmlns:v3="http://xmlns.tigo.com/RequestHeader/V3" xmlns:v2="http://xmlns.tigo.com/ParameterType/V2" xmlns:cor="http://soa.mic.co.af/coredata_1">
+				   <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+				      <cor:debugFlag>true</cor:debugFlag>
+				      <wsse:Security>
+				         <wsse:UsernameToken>
+				            <wsse:Username>live_mw_mcontent</wsse:Username>
+				            <wsse:Password>P@ssw0rd@12345</wsse:Password>
+				         </wsse:UsernameToken>
+				      </wsse:Security>
+				   </soapenv:Header>
+				   <soapenv:Body>
+				      <v1:GetPurchaseTransDetailsRequest>
+				         <v3:RequestHeader>
+				            <v3:GeneralConsumerInformation>
+				               <v3:consumerID>MContent</v3:consumerID>
+ 
+				               <v3:transactionID>TlDRqs416139975848231cd794d8999ccbe6f0b91e6d4d897</v3:transactionID>
+				               <v3:country>GHA</v3:country>
+				               <v3:correlationID>233244550045750202102221239448110575</v3:correlationID>
+				            </v3:GeneralConsumerInformation>
+				         </v3:RequestHeader>
+				         <v1:requestBody>
+				            <v1:customerAccount>
+				                
+				               <v1:msisdn>233277231999</v1:msisdn>
+				            </v1:customerAccount>
+				            <v1:paymentReference>29899887760987645</v1:paymentReference>
+				            <v1:apiType>payment</v1:apiType>
+				            <v1:AuthorizationCode>bGl2ZV9td19tY29udGVudFBAc3N3MHJkQDEyMzQ1</v1:AuthorizationCode>
+				         </v1:requestBody>
+				      </v1:GetPurchaseTransDetailsRequest>
+				   </soapenv:Body>
+				</soapenv:Envelope> ], 
+[ <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://xmlns.tigo.com/GetPurchaseTransDetailsRequest/V1" xmlns:v3="http://xmlns.tigo.com/RequestHeader/V3" xmlns:v2="http://xmlns.tigo.com/ParameterType/V2" xmlns:cor="http://soa.mic.co.af/coredata_1">
+				   <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+				      <cor:debugFlag>true</cor:debugFlag>
+				      <wsse:Security>
+				         <wsse:UsernameToken>
+				            <wsse:Username>live_mw_mcontent</wsse:Username>
+				            <wsse:Password>P@ssw0rd@12345</wsse:Password>
+				         </wsse:UsernameToken>
+				      </wsse:Security>
+				   </soapenv:Header>
+				   <soapenv:Body>
+				      <v1:GetPurchaseTransDetailsRequest>
+				         <v3:RequestHeader>
+				            <v3:GeneralConsumerInformation>
+				               <v3:consumerID>MContent</v3:consumerID> 
+				               <v3:transactionID>ADP5Kg81613998361e565de316fb5a76ba2b3147c0909465e</v3:transactionID>
+				               <v3:country>GHA</v3:country>
+				               <v3:correlationID>233244438737994202102221252417367556</v3:correlationID>
+				            </v3:GeneralConsumerInformation>
+				         </v3:RequestHeader>
+				         <v1:requestBody>
+				            <v1:customerAccount>				                
+				               <v1:msisdn>233277231999</v1:msisdn>
+				            </v1:customerAccount>
+				            <v1:paymentReference>23324208684070202102171356185579680</v1:paymentReference>
+				            <v1:apiType>purchase</v1:apiType>
+				            <v1:AuthorizationCode>bGl2ZV9td19tY29udGVudFBAc3N3MHJkQDEyMzQ1</v1:AuthorizationCode>
+				         </v1:requestBody>
+				      </v1:GetPurchaseTransDetailsRequest>
+				   </soapenv:Body>
+				</soapenv:Envelope> ], 

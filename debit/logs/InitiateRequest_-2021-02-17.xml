@@ -1,0 +1,54 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://xmlns.tigo.com/MFS/PurchaseInitiateRequest/V1" xmlns:v3="http://xmlns.tigo.com/RequestHeader/V3" xmlns:v2="http://xmlns.tigo.com/ParameterType/V2">
+					   <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+					      <cor:debugFlag xmlns:cor="http://soa.mic.co.af/coredata_1">true</cor:debugFlag>
+					      <wsse:Security>
+					         <wsse:UsernameToken>
+					            <wsse:Username>live_mw_mcontent</wsse:Username>
+					            <wsse:Password>P@ssw0rd@12345</wsse:Password>
+					         </wsse:UsernameToken>
+					      </wsse:Security>
+					   </soapenv:Header>
+					   <soapenv:Body>
+					      <v1:PurchaseInitiateRequest>
+					         <v3:RequestHeader>
+					            <v3:GeneralConsumerInformation>
+					               <v3:consumerID>MContent</v3:consumerID>
+					               
+					               <v3:transactionID>8GOIr6316135701788f5982311036242208d83f5e55eea799</v3:transactionID>
+					               <v3:country>GHA</v3:country>
+					               <v3:correlationID>23324208684070202102171356185579680</v3:correlationID>
+					            </v3:GeneralConsumerInformation>
+					         </v3:RequestHeader>
+					         <v1:requestBody>
+					            <v1:customerAccount>
+					               
+					               <v1:msisdn>233273593525</v1:msisdn>
+					            </v1:customerAccount>
+					            <v1:initiatorAccount>
+					               
+					               <v1:msisdn>233277231999</v1:msisdn>
+					            </v1:initiatorAccount>
+					            <v1:paymentReference>23324208684070202102171356185579680</v1:paymentReference>
+					            
+					            <v1:externalCategory>Debit Tigo Customer</v1:externalCategory>
+					             
+					            <v1:externalChannel>MContent Portal</v1:externalChannel>
+					             
+					            <v1:webUser>MCONTENT_report</v1:webUser>
+					             
+					            <v1:webPassword>Cashme@21</v1:webPassword>
+					             
+					            <v1:merchantName>Mobile Content</v1:merchantName>
+					             
+					            <v1:merchantMsisdn>233277231999</v1:merchantMsisdn>
+					             
+					            <v1:itemName>Test</v1:itemName>
+					            <v1:amount>0.3</v1:amount>
+					             
+					            <v1:minutesToExpire>20</v1:minutesToExpire>
+					            <v1:notificationChannel>2</v1:notificationChannel>
+					               <v1:AuthorizationCode>bGl2ZV9td19tY29udGVudFBAc3N3MHJkQDEyMzQ1</v1:AuthorizationCode>
+					         </v1:requestBody>
+					      </v1:PurchaseInitiateRequest>
+					   </soapenv:Body>
+					</soapenv:Envelope>

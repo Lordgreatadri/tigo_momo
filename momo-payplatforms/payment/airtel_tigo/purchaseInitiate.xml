@@ -1,0 +1,60 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<WL5G3N2:definitions xmlns:WL5G3N0="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:WL5G3N1="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:WL5G3N2="http://schemas.xmlsoap.org/wsdl/" xmlns:WL5G3N3="http://xmlns.tigo.com/MFS/PurchaseInitiateRequest/V1" xmlns:WL5G3N4="http://xmlns.tigo.com/MFS/PurchaseInitiateResponse/V1" xmlns:WL5G3N5="http://xmlns.tigo.com/MFS/PurchaseInitiateFault/V1" xmlns:WL5G3N6="http://xmlns.tigo.com/Service/PurchaseInitiate/V1" xmlns:WL5G3N7="http://schemas.xmlsoap.org/wsdl/soap/" name="PurchaseInitiate" targetNamespace="http://xmlns.tigo.com/Service/PurchaseInitiate/V1">
+<WL5G3N0:Policy WL5G3N1:Id="wss_username_token_service_policy">
+<sp:SupportingTokens xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+<wsp:Policy xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy">
+<sp:UsernameToken sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient">
+<wsp:Policy>
+<sp:WssUsernameToken10/>
+</wsp:Policy>
+</sp:UsernameToken>
+</wsp:Policy>
+</sp:SupportingTokens>
+</WL5G3N0:Policy>
+<WL5G3N2:types>
+<xsd:schema xmlns:WL5G3N0="http://schemas.xmlsoap.org/wsdl/" xmlns:WL5G3N1="http://xmlns.tigo.com/MFS/PurchaseInitiateRequest/V1" xmlns:WL5G3N2="http://xmlns.tigo.com/MFS/PurchaseInitiateResponse/V1" xmlns:WL5G3N3="http://xmlns.tigo.com/MFS/PurchaseInitiateFault/V1" xmlns:WL5G3N4="http://xmlns.tigo.com/Service/PurchaseInitiate/V1" xmlns:WL5G3N5="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:WL5G3N6="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:pi1="http://xmlns.tigo.com/MFS/PurchaseInitiateRequest/V1" xmlns:pi2="http://xmlns.tigo.com/MFS/PurchaseInitiateResponse/V1" xmlns:pif="http://xmlns.tigo.com/MFS/PurchaseInitiateFault/V1" xmlns:pis="http://xmlns.tigo.com/Service/PurchaseInitiate/V1" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:import namespace="http://xmlns.tigo.com/MFS/PurchaseInitiateRequest/V1" schemaLocation="http://10.81.0.59:7777/osb/services/PurchaseInitiate_1_0?SCHEMA%2FNorthBoundInterfaces%2FPurchaseInitiateRequest_1_0"/>
+<xsd:import namespace="http://xmlns.tigo.com/MFS/PurchaseInitiateResponse/V1" schemaLocation="http://10.81.0.59:7777/osb/services/PurchaseInitiate_1_0?SCHEMA%2FNorthBoundInterfaces%2FPurchaseInitiateResponse_1_0"/>
+<xsd:import namespace="http://xmlns.tigo.com/MFS/PurchaseInitiateFault/V1" schemaLocation="http://10.81.0.59:7777/osb/services/PurchaseInitiate_1_0?SCHEMA%2FNorthBoundInterfaces%2FPurchaseInitiateFault_1_0"/>
+</xsd:schema>
+</WL5G3N2:types>
+<WL5G3N2:message name="PurchaseInitiate">
+<WL5G3N2:part element="WL5G3N3:PurchaseInitiateRequest" name="PurchaseInitiate"/>
+</WL5G3N2:message>
+<WL5G3N2:message name="PurchaseInitiateResponse">
+<WL5G3N2:part element="WL5G3N4:PurchaseInitiateResponse" name="PurchaseInitiateResponse"/>
+</WL5G3N2:message>
+<WL5G3N2:message name="PurchaseInitiateFault">
+<WL5G3N2:part element="WL5G3N5:PurchaseInitiateFault" name="PurchaseInitiateFault"/>
+</WL5G3N2:message>
+<WL5G3N2:portType name="PurchaseInitiatePortType">
+<WL5G3N2:operation name="PurchaseInitiate">
+<WL5G3N2:input message="WL5G3N6:PurchaseInitiate"/>
+<WL5G3N2:output message="WL5G3N6:PurchaseInitiateResponse"/>
+<WL5G3N2:fault message="WL5G3N6:PurchaseInitiateFault" name="PurchaseInitiateFault"/>
+</WL5G3N2:operation>
+</WL5G3N2:portType>
+<WL5G3N2:binding name="PurchaseInitiateBinding" type="WL5G3N6:PurchaseInitiatePortType">
+<WL5G3N0:Policy>
+<WL5G3N0:PolicyReference URI="#wss_username_token_service_policy"/>
+</WL5G3N0:Policy>
+<WL5G3N7:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+<WL5G3N2:operation name="PurchaseInitiate">
+<WL5G3N7:operation/>
+<WL5G3N2:input>
+<WL5G3N7:body parts="PurchaseInitiate" use="literal"/>
+</WL5G3N2:input>
+<WL5G3N2:output>
+<WL5G3N7:body parts="PurchaseInitiateResponse" use="literal"/>
+</WL5G3N2:output>
+<WL5G3N2:fault name="PurchaseInitiateFault">
+<WL5G3N7:fault name="PurchaseInitiateFault" use="literal"/>
+</WL5G3N2:fault>
+</WL5G3N2:operation>
+</WL5G3N2:binding>
+<WL5G3N2:service name="PurchaseInitiate">
+<WL5G3N2:port binding="WL5G3N6:PurchaseInitiateBinding" name="PurchaseInitiate">
+<WL5G3N7:address location="https://accessgw.tigo.com.gh:8443/live/PurchaseInitiate"/>
+</WL5G3N2:port>
+</WL5G3N2:service>
+</WL5G3N2:definitions>

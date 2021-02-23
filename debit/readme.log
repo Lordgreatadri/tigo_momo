@@ -1,0 +1,49 @@
+
+MTN===
+
+http://139.162.242.100:9023/debit/DebitMTNRequestEndPoint.php
+
+
+
+
+http://139.162.242.100/adri/payments/tigo/debit/debit_tigoCash_callBack.php
+
+
+@Lordgreat so you see you have
+
+Tigo Cash
+http://139.162.242.100:9024/debit/debit_tigoCash_callBack.php
+
+and MTN Momo as
+http://139.162.242.100:9023/debit/DebitMTNRequestEndPoint.php
+
+
+
+
+
+
+
+
+{"Success":"Failed","Data":{"ResponseCode":"2001","Description":"Non authorize request"}}
+
+
+{
+	"Success":true,
+	"ResponseCode":"purchaseinitiate-3022-0001-S",
+	"Data":
+	{
+		"CorrelationId":"23324860299815202102161036192431294",
+		"TransactionId":"H4YhZ9v16134717794d5e9475ef11e1583dd79c914d2e24c3",
+		"ExternalTransactionId":"c3694618-ccc4-45ad-bf65-8cff4c1c8c2e",
+		"Amount":"0.1",
+		"Status":"OK",
+		"Description":"Your payment request has been initiated.",
+		"PaymentId":"6480551",
+		"PaymentReference":"123408989877855652413456"
+	}
+}
+
+
+
+
+{"Success":true,"ResponseCode":"purchaseinitiate-3022-0001-S","Data":{"CorrelationId":"2332479563026420210216133011183189","TransactionId":"yYUldsp1613482211e174ddafdfe05d507a136a6308a6738b","ExternalTransactionId":"23b4f94c-7808-4bb6-a98f-fc2795debabc","Amount":"0.1","Status":"OK","Description":"Your payment request has been initiated.","PaymentId":"6482627","PaymentReference":"123408989877855652413"}}

@@ -1,0 +1,66 @@
+[ <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cor="http://soa.mic.co.af/coredata_1">
+				   <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+				      <cor:debugFlag>true</cor:debugFlag>
+				      <wsse:Security>
+				         <wsse:UsernameToken>
+				            <wsse:Username>live_mw_mcontent</wsse:Username>
+				            <wsse:Password>P@ssw0rd@12345</wsse:Password>
+				         </wsse:UsernameToken>
+				      </wsse:Security>
+				   </soapenv:Header>
+				   <soapenv:Body>
+				      <v1:ReverseTransactionRequest xmlns:v3="http://xmlns.tigo.com/RequestHeader/V3" xmlns:v1="http://xmlns.tigo.com/MFS/ReverseTransactionRequest/V1" xmlns:v2="http://xmlns.tigo.com/ParameterType/V2">
+				         <v3:RequestHeader>
+				            <v3:GeneralConsumerInformation>
+				               <v3:consumerID>MContent</v3:consumerID>
+				               <v3:transactionID>8GOIr6316135701788f5982311036242208d83f5e55eea799</v3:transactionID>
+				               <v3:country>GHA</v3:country>
+				               <v3:correlationID>23324208684070202102171356185579680</v3:correlationID>
+				            </v3:GeneralConsumerInformation>
+				         </v3:RequestHeader>
+				         <v1:requestBody>
+				            <v1:userWallet>  
+				               <v1:msisdn>233277231999</v1:msisdn>
+				            </v1:userWallet>
+				            <v1:transactionId>MM210217.1356.D04781</v1:transactionId>
+				            <v1:transactionType>CANCEL TRANSACTION</v1:transactionType>
+				            <v1:paymentReference>23324208684070202102171356185579680</v1:paymentReference>
+				            <v1:apiType>purchase</v1:apiType>
+				            <v1:AuthorizationCode>bGl2ZV9td19tY29udGVudFBAc3N3MHJkQDEyMzQ1</v1:AuthorizationCode>
+				         </v1:requestBody>
+				      </v1:ReverseTransactionRequest>
+				   </soapenv:Body>
+				</soapenv:Envelope> ], 
+[ <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cor="http://soa.mic.co.af/coredata_1">
+				   <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+				      <cor:debugFlag>true</cor:debugFlag>
+				      <wsse:Security>
+				         <wsse:UsernameToken>
+				            <wsse:Username>live_mw_mcontent</wsse:Username>
+				            <wsse:Password>P@ssw0rd@12345</wsse:Password>
+				         </wsse:UsernameToken>
+				      </wsse:Security>
+				   </soapenv:Header>
+				   <soapenv:Body>
+				      <v1:ReverseTransactionRequest xmlns:v3="http://xmlns.tigo.com/RequestHeader/V3" xmlns:v1="http://xmlns.tigo.com/MFS/ReverseTransactionRequest/V1" xmlns:v2="http://xmlns.tigo.com/ParameterType/V2">
+				         <v3:RequestHeader>
+				            <v3:GeneralConsumerInformation>
+				               <v3:consumerID>MContent</v3:consumerID>
+				               <v3:transactionID>8GOIr6316135701788f5982311036242208d83f5e55eea799</v3:transactionID>
+				               <v3:country>GHA</v3:country>
+				               <v3:correlationID>23324208684070202102171356185579680</v3:correlationID>
+				            </v3:GeneralConsumerInformation>
+				         </v3:RequestHeader>
+				         <v1:requestBody>
+				            <v1:userWallet>  
+				               <v1:msisdn>233277231999</v1:msisdn>
+				            </v1:userWallet>
+				            <v1:transactionId>MM210217.1356.D04781</v1:transactionId>
+				            <v1:transactionType>CANCEL TRANSACTION</v1:transactionType>
+				            <v1:paymentReference>23324208684070202102171356185579680</v1:paymentReference>
+				            <v1:apiType>purchase</v1:apiType>
+				            <v1:AuthorizationCode>bGl2ZV9td19tY29udGVudFBAc3N3MHJkQDEyMzQ1</v1:AuthorizationCode>
+				         </v1:requestBody>
+				      </v1:ReverseTransactionRequest>
+				   </soapenv:Body>
+				</soapenv:Envelope> ], 

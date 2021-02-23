@@ -1,0 +1,30 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2020-09-08 08:16:55 --> Severity: Notice --> Undefined property: stdClass::$balance /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-09-08 08:16:55 --> Severity: Notice --> Undefined property: stdClass::$balance /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-09-08 08:17:01 --> Severity: Notice --> Undefined property: stdClass::$balance /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-09-08 08:17:16 --> Severity: Notice --> Undefined property: stdClass::$balance /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-09-08 09:10:11 --> Severity: Notice --> Undefined property: stdClass::$balance /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-09-08 09:10:11 --> Severity: Notice --> Undefined property: stdClass::$balance /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-09-08 09:10:17 --> Severity: Notice --> Undefined property: stdClass::$balance /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-09-08 09:10:32 --> Severity: Notice --> Undefined property: stdClass::$balance /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-09-08 10:19:29 --> Severity: Notice --> Undefined property: stdClass::$balance /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-09-08 10:19:29 --> Severity: Notice --> Undefined property: stdClass::$balance /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-09-08 10:19:34 --> Severity: Notice --> Undefined property: stdClass::$balance /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-09-08 10:19:50 --> Severity: Notice --> Undefined property: stdClass::$balance /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-09-08 14:35:50 --> Severity: Notice --> Undefined property: stdClass::$balance /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-09-08 14:35:51 --> Severity: Notice --> Undefined property: stdClass::$balance /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-09-08 14:35:56 --> Severity: Notice --> Undefined property: stdClass::$balance /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-09-08 14:36:12 --> Severity: Notice --> Undefined property: stdClass::$balance /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-09-08 14:50:21 --> Severity: Notice --> Undefined property: stdClass::$balance /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-09-08 14:50:21 --> Severity: Notice --> Undefined property: stdClass::$balance /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-09-08 14:50:27 --> Severity: Notice --> Undefined property: stdClass::$balance /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-09-08 14:50:42 --> Severity: Notice --> Undefined property: stdClass::$balance /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-09-08 17:40:09 --> Severity: Notice --> Undefined property: stdClass::$balance /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-09-08 17:40:10 --> Severity: Notice --> Undefined property: stdClass::$balance /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-09-08 17:40:15 --> Severity: Notice --> Undefined property: stdClass::$balance /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-09-08 17:40:31 --> Severity: Notice --> Undefined property: stdClass::$balance /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-09-08 21:40:50 --> Severity: Notice --> Undefined property: stdClass::$balance /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-09-08 21:40:50 --> Severity: Notice --> Undefined property: stdClass::$balance /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-09-08 21:40:55 --> Severity: Notice --> Undefined property: stdClass::$balance /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
+ERROR - 2020-09-08 21:41:11 --> Severity: Notice --> Undefined property: stdClass::$balance /var/www/html/payment/mtn_momo/application/controllers/RequestEndPoint.php 77
