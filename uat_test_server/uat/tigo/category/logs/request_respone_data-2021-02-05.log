@@ -1,0 +1,2 @@
+transaction_id : 20210205132748, correlationID: 20210205132748 , ExternalTransactionId: 0a401f60-b3b2-4c65-a38f-ca4a264dd1c9, Status : ERROR, ResponseCode : purchaseinitiate-3022-4507-V, Description: 'Duplicate payment reference id passed in the request.', initiate_date: '2021-02-05' 
+transaction_id : 20210205133412, correlationID: 20210205133412 , ExternalTransactionId: c228c185-4e49-45e6-a316-9e51e8f2c3fb, Status : ERROR, ResponseCode : purchaseinitiate-3022-4507-V, Description: 'Duplicate payment reference id passed in the request.', initiate_date: '2021-02-05' 

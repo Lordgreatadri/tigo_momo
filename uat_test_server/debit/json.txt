@@ -1,0 +1,1 @@
+{"transactionID":"MP191114.1539.C00004","correlationID":"96894530x5b3c","status":"OK","code":"purchase-3008-0000-S","description":"The request has been processed successfully"}

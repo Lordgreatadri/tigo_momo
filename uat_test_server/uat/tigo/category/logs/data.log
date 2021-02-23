@@ -1,0 +1,15 @@
+Array
+(
+    [api_key] => mcc@tigoc@sh
+    [RefNo] => MCC-PAY-238963114
+    [ClientId] => 1625
+    [CustomerName] => MCC-TIGO-TEST
+    [CustomerMsisdn] => 233273593525
+    [Network] => tigo-gh
+    [Product] => Vote
+    [Amount] => 1
+    [Narration] => Debit Tigo customer
+    [ServiceDescription] => Tigo momo testing on web portal
+    [Authorization] => GqeaUSbau2pMNWnNLiSYarcJt097zYZo
+    [PrimaryCallbackUrl] => http://178.79.172.242/adri/uat/tigo/category/payment_callback.php
+)

@@ -1,0 +1,36 @@
+<BILLPAYREQUEST>
+					<transactionID>MP191114.1539.C00004<transactionID>
+					<correlationID>96894530x5b3c</correlationID>
+					<status>OK</status>
+					<code>purchase-3008-0000-S</code>
+					<description>The request has been processed successfully</description>
+					<BILLPAYREQUEST>
+					> <BILLPAYREQUEST>
+					<transactionID>MP191114.1539.C00004<transactionID>
+					<correlationID>96894530x5b3c</correlationID>
+					<status>OK</status>
+					<code>purchase-3008-0000-S</code>
+					<description>The request has been processed successfully</description>
+					<BILLPAYREQUEST>
+					> <BILLPAYREQUEST>
+					<transactionID>MP191114.1539.C00004<transactionID>
+					<correlationID>96894530x5b3c</correlationID>
+					<status>OK</status>
+					<code>purchase-3008-0000-S</code>
+					<description>The request has been processed successfully</description>
+					<BILLPAYREQUEST>
+					> <BILLPAYREQUEST>
+					<transactionID>MP191114.1539.C00004<transactionID>
+					<correlationID>96894530x5b3c</correlationID>
+					<status>OK</status>
+					<code>purchase-3008-0000-S</code>
+					<description>The request has been processed successfully</description>
+					<BILLPAYREQUEST>
+					> <BILLPAYREQUEST>
+					<transactionID>MP191114.1539.C00004<transactionID>
+					<correlationID>96894530x5b3c</correlationID>
+					<status>OK</status>
+					<code>purchase-3008-0000-S</code>
+					<description>The request has been processed successfully</description>
+					<BILLPAYREQUEST>
+					> 
