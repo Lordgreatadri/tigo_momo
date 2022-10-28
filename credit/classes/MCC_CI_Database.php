@@ -3,10 +3,10 @@
 	class MCC_CI_Database
 	{
 
-		private $db_host = '192.168.193.254';
+		private $db_host = ' ';
         private $db_name = 'airtel_tigo_mobile_money';//mycloud
-        private $db_username = 'adri';
-        private $pass_word = 'adRi@1234&5$HaW9(1&Mcc';
+        private $db_username = ' ';
+        private $pass_word = '     (   ';
         private $charset = 'utf8mb4';
 
 		//access to server/database connection 2018-04-09 16:02:44
